@@ -6,6 +6,7 @@ var baseName = doc.name;
 var XML = doc.exportPublishProfileString();
 var tl = doc.getTimeline();
 
+
 //Change Publish Settings
 XML = XML.replace(/<flash>.<\/flash>/,'<flash>0</flash>');
 XML = XML.replace(/<swc>.<\/swc>/,'<swc>0</swc>');
