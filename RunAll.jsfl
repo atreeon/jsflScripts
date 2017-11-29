@@ -1,3 +1,13 @@
+/*
+as the export isn't working, we could do the following
+1. show open file dialog, user selects file
+2. deletes the layer
+3. save as fla with same name as import
+
+a. then, the user can manually export, then run the command again for the next file
+*/
+
+
 fl.trace('-------RunAll.jsfl---------');
 
 var folder = fl.browseForFolderURL("Choose a folder to publish:");
