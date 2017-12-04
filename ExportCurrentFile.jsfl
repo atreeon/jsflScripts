@@ -7,6 +7,10 @@
 //     dom.exportSVG(uri, true, true);
 // })();
 
-var exportFileName = 'file:///C:/temp/a.svg';
-fl.getDocumentDOM().exportSVG(exportFileName, true, true);
+// var exportFileName = 'file:///C:/temp/testpublish/a.svg';
+// fl.getDocumentDOM().exportSVG(exportFileName, true, true);
+
+var ppXML = fl.exportPublishProfileString(ucfURI); 
+fl.trace(ppXML);
+//fl.trace(exportFileName);
 
