@@ -7,10 +7,19 @@
 //     dom.exportSVG(uri, true, true);
 // })();
 
+
+// Get publish settings
+// var myFla = 'file:///C:/Users/atree/OneDrive/200WordsADay/ItalianCourse1/__Test/test.fla';
+// var ppXML = fl.exportPublishProfileString(myFla);
+// profileXML = profileXML.replace("<defaultNames>1</defaultNames>",
+//                                 "<defaultNames>0</defaultNames>");
+// doc.importPublishProfileString(profileXML);
+// fl.trace(ppXML);
+
+// // Export file
 // var exportFileName = 'file:///C:/temp/testpublish/a.svg';
 // fl.getDocumentDOM().exportSVG(exportFileName, true, true);
+// // fl.trace(exportFileName);
 
-var ppXML = fl.exportPublishProfileString(ucfURI); 
-fl.trace(ppXML);
-//fl.trace(exportFileName);
+
 

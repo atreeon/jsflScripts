@@ -14,5 +14,4 @@ function importNextFile (uri) {
 }
 
 function exportAsSvg(uri) {
-    fl.getDocumentDOM().exportSVG(uri, true, true);
 }
